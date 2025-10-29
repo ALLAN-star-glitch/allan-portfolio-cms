@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_projects",
+  "info": {
+    "singularName": "featured-project",
+    "pluralName": "featured-projects",
+    "displayName": "featured-projects"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tags": {
+      "type": "json"
+    },
+    "githubUrl": {
+      "type": "string"
+    },
+    "liveUrl": {
+      "type": "string"
+    }
+  }
+}
