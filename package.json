@@ -1,0 +1,36 @@
+{
+  "name": "allan-portfolio-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-users-permissions": "5.18.1",
+    "@strapi/provider-upload-cloudinary": "5.18.1",
+    "@strapi/strapi": "5.18.1",
+    "better-sqlite3": "11.3.0",
+    "pg": "^8.7.0",
+    "pg-connection-string": "^2.9.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "5dbc738b-6a52-4a78-a46c-eed70aa61c15"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

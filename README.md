@@ -1,2 +1,2 @@
-# allan-portfolio-cms
-This cms assists in content management for my personal portfolio website.
+# pivota-strapi-cms
+This is a strapi cms that help manage content on the pivota platform.
