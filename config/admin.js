@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
     salt: env('API_TOKEN_SALT'),
   },
   app: {
-      name: 'pivota-cms',
+      name: 'allan-portfolio-cms',
     },
     
 });
